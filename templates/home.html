@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Spam SMS Detector</title>
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename='spam-favicon.ico') }}" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='styles.css') }}" />
+    <script
+      src="https://kit.fontawesome.com/5f3f547070.js"
+      crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Website Title -->
+    <div class="container">
+      <h2 class="container-heading">
+        <span>Spam Detector</span> for Short Message Service (SMS)
+      </h2>
+      <div class="description">
+        <p>
+          A Machine Learning Web App, Built with Flask, Deployed using Heroku.
+        </p>
+      </div>
+    </div>
+
+    <!-- Text Area -->
+    <div class="ml-container">
+      <form action="{{ url_for('predict') }}" method="POST">
+        <textarea
+          class="message-box"
+          name="message"
+          rows="15"
+          cols="75"
+          placeholder="Enter Your Message Here..."></textarea
+        ><br />
+        <input type="submit" class="my-cta-button" value="Predict" />
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="main"></div>
+      <div class="footer">
+        <div class="bubbles">
+          <!-- For loop in HTML using JavaScript -->
+          <div
+            class="bubble"
+            style="
+              size: 2rem;
+              distance: 6rem;
+              position: 5%;
+              time: 2s;
+              delay: -2s;
+            "></div>
+          <!-- Repeat for a total of 128 bubbles -->
+        </div>
+        <div class="content">
+          <div>
+            <div>
+              <b>Eldew</b>
+              <a href="#">Secuce</a>
+              <a href="#">Drupand</a>
+              <a href="#">Oceash</a>
+              <a href="#">Ugefe</a>
+              <a href="#">Babed</a>
+            </div>
+            <div>
+              <b>Spotha</b>
+              <a href="#">Miskasa</a>
+              <a href="#">Agithe</a>
+              <a href="#">Scesha</a>
+              <a href="#">Lulle</a>
+            </div>
+            <div>
+              <b>Chashakib</b>
+              <a href="#">Chogauw</a>
+              <a href="#">Phachuled</a>
+              <a href="#">Tiebeft</a>
+              <a href="#">Ocid</a>
+              <a href="#">Izom</a>
+              <a href="#">Ort</a>
+            </div>
+            <div>
+              <b>Athod</b>
+              <a href="#">Pamuz</a>
+              <a href="#">Vapert</a>
+              <a href="#">Neesk</a>
+              <a href="#">Omemanen</a>
+            </div>
+          </div>
+          <div>
+            <a
+              class="image"
+              href="https://codepen.io/z-"
+              target="_blank"
+              style="
+                background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg');
+              "></a>
+            <p>©2019 Not Really</p>
+          </div>
+        </div>
+      </div>
+      <svg style="position: fixed; top: 100vh">
+        <defs>
+          <filter id="blob">
+            <feGaussianBlur
+              in="SourceGraphic"
+              stdDeviation="10"
+              result="blur"></feGaussianBlur>
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+              result="blob"></feColorMatrix>
+            <!--feComposite in="SourceGraphic" in2="blob" operator="atop"-->
+            <!-- After reviewing this after years, I can't remember why I added this, but it isn't necessary for the blob effect -->
+          </filter>
+        </defs>
+      </svg>
+    </div>
+  </body>
+</html>
