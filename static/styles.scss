@@ -13,11 +13,10 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #f5f5f5;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .container {
-  margin-top: 20px;
   animation: change-gradient 10s ease-in-out infinite;
   font-family: "Poppins", sans-serif;
 }
@@ -29,7 +28,7 @@ body {
 .container h2 span {
   font-size: 3rem;
   color: rebeccapurple;
-  opacity: 0.4;
+  opacity: 0.5;
   font-weight: 800;
   // text-shadow: lightgray 2px 5px;
 }
@@ -38,13 +37,17 @@ body {
   font-size: 2rem;
   margin: 3px 0 0;
   color: rebeccapurple;
-  opacity: 0.4;
+  opacity: 0.5;
   font-weight: 500;
   text-shadow: darkgray 1px 2px;
 }
 
 .ml-container {
-  margin: 30px 0;
+  background-color: #f5f5f5;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border: 1px solid lightgray;
+  padding: 30px 0;
   flex: 1 0 auto;
 }
 
@@ -112,6 +115,10 @@ body {
   align-items: center;
   flex: 1 0 auto;
   font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border: 1px solid lightgray;
 }
 
 .danger {
