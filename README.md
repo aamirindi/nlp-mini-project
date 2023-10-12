@@ -17,7 +17,7 @@
 - Project Type : Course Project
 
 ### Platform, Libraries and Frameworks used
-1. [Python](https://python.org)
-2. [Flask](https://flask.org)
+1. [Python]
+2. [Flask]
 3. [HTML]
 4. [CSS]
