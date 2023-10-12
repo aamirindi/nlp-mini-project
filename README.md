@@ -1,5 +1,23 @@
-# SPAM Detection
+# Spam Detector for Short Message Service (SMS)
 
+> *Abstract* : "Spam Detector for Short Message Service (SMS)" leverages Natural Language Processing (NLP) and Python, reinforced by Flask for the backend and HTML/CSS for the frontend, to combat the growing menace of unsolicited messages. This innovative system employs NLP techniques to preprocess and analyze incoming SMS messages, distinguishing between legitimate and spam content. Through an intuitive web interface, users can interact with this application, safeguarding their messaging experience. The fusion of NLP, Python, Flask, and user-friendly HTML/CSS design ensures efficient and real-time spam detection, enhancing the quality of communication in the SMS domain.
 
-A spam detector using NLP (Natural Language Processing) is a machine learning model that analyzes text messages to identify and filter out unwanted or unsolicited content, commonly found in emails or short messages. It leverages NLP techniques to detect patterns and features in text data, enabling it to distinguish between legitimate and spam messages based on factors such as keywords, context, and linguistic analysis. This technology is essential for maintaining communication channels free from unwanted or harmful content, enhancing user experience, and protecting against phishing and fraud.
+### Project Members
+1. BORAL AFFAN QUTBUDDIN  [ Team Leader ] 
+2. INDI MOHD AAMIR MOHD YASIN 
+3. SHAIKH FAHAD SAJID ALI 
+4. PARAB SIDDHESH ANIL 
 
+### Project Guides
+    Prof. Ramya Kanagraj
+
+### Subject Details
+- Class : BE (AI&DS) Div A - 2023-2024
+- Subject : Natural Language Processing (NLP(DLOC3)(A))
+- Project Type : Course Project
+
+### Platform, Libraries and Frameworks used
+1. [Python](https://python.org)
+2. [Flask](https://flask.org)
+3. [HTML]
+4. [CSS]
