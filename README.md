@@ -20,4 +20,4 @@
 1. [Python]
 2. [Flask]
 3. [HTML]
-4. [CSS]
+4. [SCSS]
